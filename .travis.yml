@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker image build -t silviamaccari/blatest .
+  - docker container run silviamaccari/blatest
